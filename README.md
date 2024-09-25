@@ -1,9 +1,11 @@
-All Data Science Projects that I have done will avaliable here.**
+All Data Science Projects that I have done will avaliable here.
 
 
 **🚀 Breast Cancer Prediction Using R: A Comprehensive Analysis 🌟**
+
 **🛠️ Project Overview**
 In this project, I implemented various techniques to analyze and predict breast cancer outcomes using the K-Nearest Neighbors (KNN) algorithm.
+
 
 **🔍 Data Analysis and Visualization**
 Data Preparation:
@@ -17,6 +19,8 @@ Pair Plot: Visualized relationships between selected features and diagnosis cate
 Data Normalization:
 
 Normalized the dataset features to prepare for model training.
+
+
 **🔬 Model Training and Evaluation**
 Train-Test Split:
 
@@ -32,5 +36,7 @@ Accuracy: 98%
 Sensitivity: 100%
 Specificity: 91.3%
 Kappa: 0.9418
+
+
 **📊 Tools and Libraries**
 Utilized libraries including ggplot2, caret, class, gmodels, lattice, and GGally for visualization and analysis.
