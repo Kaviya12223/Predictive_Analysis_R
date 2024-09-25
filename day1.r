@@ -62,31 +62,5 @@ aa <- table(a_test_labels, a_test_pred)
 aa
 confusionMatrix(data = a_test_pred, reference = a_test_labels)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Pair plot for selected features
 ggpairs(a[c("radius_mean", "area_mean", "smoothness_mean", "diagnosis")], aes(color = diagnosis))
