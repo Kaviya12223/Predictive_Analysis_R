@@ -45,14 +45,29 @@ Utilized libraries including ggplot2, caret, class, gmodels, lattice, and GGally
 **🌟 Exploring Naive Bayes Classification with the Iris Dataset in R 🌟**
 
 I'm excited to share my recent project where I implemented the Naive Bayes classification algorithm using Iris dataset! 🌸
+
 **📊 Highlights:**
-Dataset: The Iris dataset consists of 150 samples from three species of iris flowers (Setosa, Versicolor, and Virginica), with four features: sepal length, sepal width, petal length, and petal width.
+
+Dataset: The Iris dataset consists of 150 samples from three species of iris flowers (Setosa, Versicolor, and Virginica), with four 
+
+features: sepal length, sepal width, petal length, and petal width.
+
 Objective: To classify the species of iris flowers based on their features using the Naive Bayes algorithm.
+
+
 **🔍 Key Steps:**
+
 Data Preparation: Loaded the dataset and explored its structure.
+
 Data Partitioning: Used caret's createDataPartition to split the data into training (70%) and testing (30%) sets.
+
 Model Training: Trained the Naive Bayes model using the e1071 package.
+
 Model Evaluation: Evaluated the model's performance using confusion matrix,
+
 Visualization: Created a confusion matrix heatmap and visualized the model performance
+
+
 **📈 Results:**
+
 Achieved a model accuracy of **91%**
