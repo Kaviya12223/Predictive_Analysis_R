@@ -35,8 +35,7 @@ cm_table
 # Step 7: Visualize the model's accuracy (Optional)
 plot(predictions, col = "lightblue", main = "Predicted vs True Species in Test Data")
 points(testData$Species, col = c("red","yellow", "black"), pch = 20)
-legend("topright", legend = unique(iris$Species), col = c("red","yellow", "black"),
-       pch = 20, title = "Species")
+legend("topright", legend = unique(iris$Species), col = c("red","yellow", "black"), pch = 20, title = "Species")
 
 colnames(cm_table) <- c("Reference", "Prediction", "Freq")
 
