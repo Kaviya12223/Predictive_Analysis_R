@@ -44,9 +44,7 @@ p <- ggplot(data, aes(x=as.factor(id), y=value)) +
 #Add the labels, using the label_data dataframe that we have created before
 
 p
-
-
-
+#-------------------------------------------------------------------------------------------------------------------
 install.packages("fmsb") 
 library(fmsb)
 
@@ -61,32 +59,7 @@ data <- rbind(rep(20,10) , rep(0,10) , data)
 radarchart(data)
 
 
-
-
-
-
-
-
-
-
-
-
-
-install.packages("wordcloud2")
-library(wordcloud2) 
-dataFrame <- data.frame(
-  word=c("Jonathan","loves","to","play","with","wordclouds"),
-  freq=c(100,60,50,40,30,20)
-)
-letterCloud( demoFreq, word = "R", color='random-light' , backgroundColor="black")
-
-letterCloud( demoFreq, word = "PEACE", color="white", backgroundColor="pink")
-
-wordcloud2(data=demoFreq, size=1.6)
-
-
-
-
+#-----------------------------------------------------------------------------------------------------------------
 library(tidyverse)
 
 data <- data.frame(
@@ -99,18 +72,7 @@ ggplot(data, aes(x=x, y=y)) +
 #alpha : adjusting transparency
 #stroke : sets the border thickness
 
-
-
-
-
-
-
-
-
-
-
-
-
+#--------------------------------------------------------------------------------------------------------------------
 install.packages("scales")
 library(scales)
 library(fmsb)
