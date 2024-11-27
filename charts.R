@@ -1,3 +1,4 @@
+#---------------------------------------CIRCULAR BAR PLOT--------------------------------------
 library(tidyverse)
 
 data <- data.frame(
@@ -44,7 +45,7 @@ p <- ggplot(data, aes(x=as.factor(id), y=value)) +
 #Add the labels, using the label_data dataframe that we have created before
 
 p
-#-------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------RADAR CHART----------------------------------------------------------
 install.packages("fmsb") 
 library(fmsb)
 
@@ -59,7 +60,7 @@ data <- rbind(rep(20,10) , rep(0,10) , data)
 radarchart(data)
 
 
-#-----------------------------------------------------------------------------------------------------------------
+#-----------------------------------------LOLLI POP CHART-----------------------------------------------
 library(tidyverse)
 
 data <- data.frame(
@@ -72,7 +73,7 @@ ggplot(data, aes(x=x, y=y)) +
 #alpha : adjusting transparency
 #stroke : sets the border thickness
 
-#--------------------------------------------------------------------------------------------------------------------
+#-------------------------------------------CUSTOMIZED RADAR CHART--------------------------------------------------------
 install.packages("scales")
 library(scales)
 library(fmsb)
